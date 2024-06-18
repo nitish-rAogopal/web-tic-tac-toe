@@ -1,4 +1,4 @@
-const ganeCells = document.querySelectorAll('.cell')
+const gameCells = document.querySelectorAll('.cell')
 const player1 = document.querySelector('.payer1')
 const player2 = document.querySelector('.payer2')
 const restartBtn = document.querySelector('.restartBtn')
@@ -14,7 +14,7 @@ let playerTurn = currentPlayer
 
 //function to start your game
 const startgame = function () {
-    ganeCells.forEach(cell => {
+    gameCells.forEach(cell => {
         cell.addEventListener('click', handleClick)
     })
 }
@@ -64,9 +64,9 @@ const checkWin = function () {
     for (let i = 0; i < winningConditons.length; i++) {
         const [pos1, pos2, pos3] = winningConditons[i]
         //console.log(`${pos1}, ${pos2}, ${pos3}`)
-        if (ganeCells[pos1].textContent !== '' &&
-            ganeCells[pos1].textContent === ganeCells[pos2].textContent &&
-            ganeCells[pos2].textContent === ganeCells[pos3].textContent)
+        if (gameCells[pos1].textContent !== '' &&
+            gameCells[pos1].textContent === gameCells[pos2].textContent &&
+            gameCells[pos2].textContent === gameCells[pos3].textContent)
             return true
     }
     return false
@@ -75,7 +75,7 @@ const checkWin = function () {
 //function to check tie
 const checkTie = function () {
     let emptyCellsCount = 0;
-    ganeCells.forEach(cell => {
+    gameCells.forEach(cell => {
         if (cell.textContent === '')
             emptyCellsCount++
     })
@@ -83,7 +83,7 @@ const checkTie = function () {
 }
 //function to disable game-board cells after a win or tie
 const disableCells = function () {
-    ganeCells.forEach(cell => {
+    gameCells.forEach(cell => {
         cell.removeEventListener('click', handleClick)
         cell.classList.add('disabled')
     })
@@ -92,7 +92,7 @@ const disableCells = function () {
 
 //restart button
 const restartGame = function () {
-    ganeCells.forEach(cell => {
+    gameCells.forEach(cell => {
         cell.textContent = ''
         cell.classList.remove('disabled')
     })
