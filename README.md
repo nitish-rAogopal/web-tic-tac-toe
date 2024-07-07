@@ -56,22 +56,25 @@ To run this project, you need a web browser that supports HTML5, CSS3, and JavaS
 
 ## Contributing 
 
-   Contributions are welcome! If you find any bugs or want to enhance the game, feel free to create a pull request or open an issue.
+Contributions are welcome! If you find any bugs or want to enhance the game, feel free to create a pull request or open an issue.
 
    1. Fork the repository.
    2. Create a new branch 
-	```
+	
+ 	```
    	git checkout -b feature/your-feature
     	```
    3. Commit your changes
-    	```
+
+	```
    	git commit -am 'Add your feature'
     	```
    4. Push to the branch 
-    	```
+
+	```
     	git push origin feature/your-feature
     	```
-   5. Create a new Pull Request.
+   6. Create a new Pull Request.
 
 ## License
 	
