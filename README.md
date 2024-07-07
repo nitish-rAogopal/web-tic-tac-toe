@@ -32,19 +32,16 @@ To run this project, you need a web browser that supports HTML5, CSS3, and JavaS
 ### Installation
 
 1. Clone the repository:
-
    ```
    git clone https://github.com/nitish-rAogopal/tic-tac-toe.git```
 
 2. Navigate to the project directory:
-
    ```
-  cd tic-tac-toe```
+   cd tic-tac-toe```
 
 3. Open the index.html file in your web browser:
-
-  ```
-  index.html
+   ```
+   index.html
     
 
 ## Usages 
