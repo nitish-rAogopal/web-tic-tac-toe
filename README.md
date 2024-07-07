@@ -1,32 +1,83 @@
 # Tic Tac Toe Game
-<tt>
-<br>
-<br>
-This is a simple Tic Tac Toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns marking cells on a 3x3 grid, with the goal of being the first to mark three cells in a row, column, or diagonal.<br>
-<br>
-  
-<b>Features:</b>
-    <ul>
-        <li>Two-player functionality.</li>
-        <li>Displays the current player's turn.</li>
-        <li>Alerts the winner or if the game ends in a tie.</li>
-        <li>Disables the game board after a win or tie.</li>
-        <li>Provides a restart button to reset the game.</li>
-    </ul>
-<b>How to Run</b>
-    <ol>
-        <li>Clone or download the repository.</li>
-        <li>Open the <i>index.html</i> file in a web browser.</li>
-        <li>Play the game by clicking on the cells to mark them.</li>
-        <li>Use the restart button to reset the game.</li>
-    </ol>
-<b>Future Improvements</b>
-    <ul>
-        <li>Add AI for single-player mode</li>
-        <li>Improve styling for a more modern look.</li>
-        <li>Enhance accessibility features.</li>
-    </ul>
-<b>Author</b>
-<span>Nitish Kumar</span><br>
-<span>nitish.raogopal@gmail.com</span>
-</tt>
+
+A simple Tic Tac Toe game implemented using HTML, CSS, and JavaScript.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This project is a basic Tic Tac Toe game that can be played in the browser. It consists of a 3x3 grid and allows two players to play the game by taking turns. The game displays the current player's turn, checks for win conditions, and announces the winner or if there's a tie. Players can restart the game using the provided button.
+
+## Features
+
+- Two-player functionality
+- Display of current player's turn
+- Win and tie condition checks
+- Restart button to reset the game
+- Responsive design for mobile devices
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you need a web browser that supports HTML5, CSS3, and JavaScript.
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/nitish-rAogopal/tic-tac-toe.git
+   ```
+
+2. Navigate to the project directory:
+
+    ```
+    cd tic-tac-toe
+    ```
+3. Open the index.html file in your web browser:
+    ```
+    open index.html
+    ```
+
+## Usages 
+
+
+   - Click on any cell to place your mark (X or O)
+   - The game will automatically check for win conditions and announce the winner or if there's a tie
+   - Click the "Restart" button to reset the game and start a new match
+
+## Contributing 
+
+   Contributions are welcome! If you find any bugs or want to enhance the game, feel free to create a pull request or open an issue.
+
+   1. Fork the repository.
+   2. Create a new branch 
+    ```
+    git checkout -b feature/your-feature
+    ```
+    
+   3. Commit your changes
+    ```
+    git commit -am 'Add your feature'
+    ```
+   4. Push to the branch 
+    ```
+    git push origin feature/your-feature
+    ```
+   5. Create a new Pull Request.
+
+## License
+
+	This project is licensed under the MIT License - see the LICENSE file for details.
+
+    	```
+    	Feel free to customize the sections as needed, especially the repository URL and any additional features or instructions specific to your project.
+    	```
