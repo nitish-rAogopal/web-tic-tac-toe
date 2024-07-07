@@ -33,15 +33,18 @@ To run this project, you need a web browser that supports HTML5, CSS3, and JavaS
 
 1. Clone the repository:
 
-   git clone https://github.com/nitish-rAogopal/tic-tac-toe.git
+```
+git clone https://github.com/nitish-rAogopal/tic-tac-toe.git
 
 2. Navigate to the project directory:
 
-    cd tic-tac-toe
+```
+cd tic-tac-toe
 
 3. Open the index.html file in your web browser:
 
-    open index.html
+```
+index.html
     
 
 ## Usages 
@@ -57,20 +60,16 @@ Contributions are welcome! If you find any bugs or want to enhance the game, fee
 
    1. Fork the repository.
    2. Create a new branch 
-	
- 	```
-   	git checkout -b feature/your-feature
-    	```
+      ```
+      it checkout -b feature/your-feature
+
    3. Commit your changes
-
-	```
-   	git commit -am 'Add your feature'
-    	```
+      ```
+      git commit -am 'Add your feature'
    4. Push to the branch 
+      ```
+      git push origin feature/your-feature
 
-	```
-    	git push origin feature/your-feature
-    	```
    6. Create a new Pull Request.
 
 ## License
