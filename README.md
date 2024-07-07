@@ -76,8 +76,8 @@ To run this project, you need a web browser that supports HTML5, CSS3, and JavaS
 
 ## License
 
-	This project is licensed under the MIT License - see the LICENSE file for details.
+	
+ This project is licensed under the MIT License - see the LICENSE file for details.
 
     	```
     	Feel free to customize the sections as needed, especially the repository URL and any additional features or instructions specific to your project.
-    	```
